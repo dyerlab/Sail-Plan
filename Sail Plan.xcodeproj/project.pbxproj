@@ -15,6 +15,16 @@
 		2A64FD462A29589F0040D72B /* Sail_PlanTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A64FD452A29589F0040D72B /* Sail_PlanTests.swift */; };
 		2A64FD502A29589F0040D72B /* Sail_PlanUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A64FD4F2A29589F0040D72B /* Sail_PlanUITests.swift */; };
 		2A64FD522A29589F0040D72B /* Sail_PlanUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A64FD512A29589F0040D72B /* Sail_PlanUITestsLaunchTests.swift */; };
+		2AC8DA5F2A2959CB009EFA0B /* Vector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AC8DA5E2A2959CB009EFA0B /* Vector.swift */; };
+		2AC8DA602A2959CB009EFA0B /* Vector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AC8DA5E2A2959CB009EFA0B /* Vector.swift */; };
+		2AC8DA622A295D12009EFA0B /* TVMDC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AC8DA612A295D12009EFA0B /* TVMDC.swift */; };
+		2AC8DA632A295D12009EFA0B /* TVMDC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AC8DA612A295D12009EFA0B /* TVMDC.swift */; };
+		2AC8DA662A295E49009EFA0B /* TVMDCView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AC8DA652A295E49009EFA0B /* TVMDCView.swift */; };
+		2AC8DA672A295E49009EFA0B /* TVMDCView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AC8DA652A295E49009EFA0B /* TVMDCView.swift */; };
+		2AC8DA692A295F0C009EFA0B /* Cardinality.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AC8DA682A295F0C009EFA0B /* Cardinality.swift */; };
+		2AC8DA6A2A295F0C009EFA0B /* Cardinality.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AC8DA682A295F0C009EFA0B /* Cardinality.swift */; };
+		2AC8DA6D2A295FE0009EFA0B /* Deviation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AC8DA6C2A295FE0009EFA0B /* Deviation.swift */; };
+		2AC8DA6E2A295FE0009EFA0B /* Deviation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AC8DA6C2A295FE0009EFA0B /* Deviation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +58,11 @@
 		2A64FD4B2A29589F0040D72B /* Sail PlanUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Sail PlanUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A64FD4F2A29589F0040D72B /* Sail_PlanUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sail_PlanUITests.swift; sourceTree = "<group>"; };
 		2A64FD512A29589F0040D72B /* Sail_PlanUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sail_PlanUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		2AC8DA5E2A2959CB009EFA0B /* Vector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vector.swift; sourceTree = "<group>"; };
+		2AC8DA612A295D12009EFA0B /* TVMDC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVMDC.swift; sourceTree = "<group>"; };
+		2AC8DA652A295E49009EFA0B /* TVMDCView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVMDCView.swift; sourceTree = "<group>"; };
+		2AC8DA682A295F0C009EFA0B /* Cardinality.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cardinality.swift; sourceTree = "<group>"; };
+		2AC8DA6C2A295FE0009EFA0B /* Deviation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Deviation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +113,7 @@
 		2A64FD2F2A29589F0040D72B /* Sail Plan */ = {
 			isa = PBXGroup;
 			children = (
+				2AC8DA5D2A2959A5009EFA0B /* Models */,
 				2A64FD302A29589F0040D72B /* Sail_PlanApp.swift */,
 				2A64FD322A29589F0040D72B /* Sail_PlanDocument.swift */,
 				2A64FD342A29589F0040D72B /* ContentView.swift */,
@@ -132,6 +148,34 @@
 				2A64FD512A29589F0040D72B /* Sail_PlanUITestsLaunchTests.swift */,
 			);
 			path = "Sail PlanUITests";
+			sourceTree = "<group>";
+		};
+		2AC8DA5D2A2959A5009EFA0B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				2AC8DA6B2A295FD0009EFA0B /* Deviation */,
+				2AC8DA642A295E2B009EFA0B /* TVMDC */,
+				2AC8DA5E2A2959CB009EFA0B /* Vector.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		2AC8DA642A295E2B009EFA0B /* TVMDC */ = {
+			isa = PBXGroup;
+			children = (
+				2AC8DA612A295D12009EFA0B /* TVMDC.swift */,
+				2AC8DA652A295E49009EFA0B /* TVMDCView.swift */,
+				2AC8DA682A295F0C009EFA0B /* Cardinality.swift */,
+			);
+			path = TVMDC;
+			sourceTree = "<group>";
+		};
+		2AC8DA6B2A295FD0009EFA0B /* Deviation */ = {
+			isa = PBXGroup;
+			children = (
+				2AC8DA6C2A295FE0009EFA0B /* Deviation.swift */,
+			);
+			path = Deviation;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -264,8 +308,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2AC8DA622A295D12009EFA0B /* TVMDC.swift in Sources */,
+				2AC8DA662A295E49009EFA0B /* TVMDCView.swift in Sources */,
+				2AC8DA5F2A2959CB009EFA0B /* Vector.swift in Sources */,
 				2A64FD332A29589F0040D72B /* Sail_PlanDocument.swift in Sources */,
 				2A64FD312A29589F0040D72B /* Sail_PlanApp.swift in Sources */,
+				2AC8DA6D2A295FE0009EFA0B /* Deviation.swift in Sources */,
+				2AC8DA692A295F0C009EFA0B /* Cardinality.swift in Sources */,
 				2A64FD352A29589F0040D72B /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -274,7 +323,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2AC8DA602A2959CB009EFA0B /* Vector.swift in Sources */,
+				2AC8DA6A2A295F0C009EFA0B /* Cardinality.swift in Sources */,
+				2AC8DA632A295D12009EFA0B /* TVMDC.swift in Sources */,
 				2A64FD462A29589F0040D72B /* Sail_PlanTests.swift in Sources */,
+				2AC8DA672A295E49009EFA0B /* TVMDCView.swift in Sources */,
+				2AC8DA6E2A295FE0009EFA0B /* Deviation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
